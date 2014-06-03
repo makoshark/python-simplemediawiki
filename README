@@ -1,5 +1,7 @@
 python-simplemediawiki requires Python 2.6 or later or Python 3.3 or later.
 
+Documentation is available at http://pythonhosted.org/simplemediawiki/.
+
 ----
 
 python-simplemediawiki - Extremely low-level wrapper to the MediaWiki API
