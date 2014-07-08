@@ -103,9 +103,9 @@ class MediaWiki(object):
         self._api_url = api_url
         self._http_user = http_user
         self._http_password = http_password
-        if cookiejar:
+        if cookiejar is not None:
             self._cj = cookiejar
-        elif cookie_file:
+        elif cookie_file is not None:
             self._cj = cookielib.LWPCookieJar(cookie_file)
             try:
                 self._cj.load()
