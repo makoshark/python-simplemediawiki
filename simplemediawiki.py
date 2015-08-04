@@ -109,7 +109,7 @@ class MediaWiki(object):
             self._cj = cookielib.LWPCookieJar(cookie_file)
             try:
                 self._cj.load()
-            except IOError:
+            except cookielib.LoadError:
                 self._cj.save()
                 self._cj.load()
         else:
