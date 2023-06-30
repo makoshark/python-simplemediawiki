@@ -59,6 +59,10 @@ else:
     raise SystemExit("Your Python is severely out of date.")
 
 __version__ = '1.1.2'
+=======
+__author__ = 'Iliana Weller <ilianaw@buttslol.net>'
+__version__ = '1.2.0b2'
+>>>>>>> gh-blipvert/develop
 DEFAULT_UA = " ".join(('python-simplemediawiki/{0}'.format(__version__),
                        '+https://github.com/ilianaw/python-simplemediawiki'))
 
