@@ -60,7 +60,7 @@ else:
 
 __version__ = '1.1.2'
 =======
-__author__ = 'Iliana Weller <ilianaw@buttslol.net>'
+__author__ = 'iliana etaoin <ilianaw@buttslol.net>'
 __version__ = '1.2.0b2'
 >>>>>>> gh-blipvert/develop
 DEFAULT_UA = " ".join(('python-simplemediawiki/{0}'.format(__version__),

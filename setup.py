@@ -26,7 +26,7 @@ if sys.version_info[0] == 2:
 setup(name='simplemediawiki',
       version=version,
       description='Extremely low-level wrapper to the MediaWiki API',
-      author='Iliana Weller',
+      author='iliana etaoin',
       author_email='ilianaw@buttslol.net',
       url='https://github.com/ilianaw/python-simplemediawiki',
       classifiers=[
